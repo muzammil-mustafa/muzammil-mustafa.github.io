@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowUpRight, Copy, Check, Mail } from 'lucide-react';
+import { ArrowUpRight, Copy, Check, Mail, Video } from 'lucide-react';
 import { SITE_CONTENT } from '../data/content';
+import BookingModal from './BookingModal';
 
 export default function ContactCTA() {
   const { contact } = SITE_CONTENT;
   const [copied, setCopied] = useState(false);
+  const [isBookingOpen, setIsBookingOpen] = useState(false);
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(contact.email);
@@ -51,9 +53,10 @@ export default function ContactCTA() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1, duration: 0.5 }}
-              className="inline-flex items-center px-4 py-1.5 rounded-full bg-white/10 border border-white/15 text-xs font-semibold uppercase tracking-wider text-[#66ffd9] mb-6"
+              className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-white/10 border border-white/15 text-xs font-semibold uppercase tracking-wider text-[#66ffd9] mb-6"
             >
-              {contact.badge}
+              <Video className="w-3.5 h-3.5" />
+              <span>{contact.badge}</span>
             </motion.div>
 
             {/* Heading */}
@@ -86,18 +89,20 @@ export default function ContactCTA() {
               transition={{ delay: 0.4, duration: 0.6 }}
               className="flex flex-wrap items-center justify-center gap-4"
             >
-              <motion.a
-                href={`mailto:${contact.email}`}
+              {/* Book a Call Button - Triggers Google Meet Booking Modal */}
+              <motion.button
+                onClick={() => setIsBookingOpen(true)}
                 data-cursor="Book a Call"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}
                 className="group flex items-center gap-3 px-8 py-4 rounded-full bg-[#66ffd9] text-black text-base font-bold hover:bg-white transition-colors duration-300 shadow-lg"
               >
+                <Video className="w-4 h-4 text-black" />
                 <span>{contact.ctaPrimary}</span>
                 <div className="w-6 h-6 rounded-full bg-black/10 flex items-center justify-center">
                   <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                 </div>
-              </motion.a>
+              </motion.button>
 
               <motion.button
                 onClick={handleCopyEmail}
@@ -124,6 +129,12 @@ export default function ContactCTA() {
         </motion.div>
 
       </div>
+
+      {/* Google Meet Booking Modal */}
+      <BookingModal
+        isOpen={isBookingOpen}
+        onClose={() => setIsBookingOpen(false)}
+      />
     </section>
   );
 }

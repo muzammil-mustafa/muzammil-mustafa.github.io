@@ -203,11 +203,11 @@ export const SITE_CONTENT = {
   },
 
   contact: {
-    badge: "Contact Me",
+    badge: "Google Meet Call",
     heading: "LET'S BUILD SOMETHING GREAT!",
-    subheading: "Have a project in mind, need a full-stack web app, or looking for a custom WordPress expert? Let's discuss your requirements and bring your vision to life.",
-    ctaPrimary: "Book a Call",
-    email: "muzammilmustafa231@gmail.com"
+    subheading: "Have a project in mind, need a full-stack web app, or looking for a custom WordPress expert? Let's schedule a Google Meet call to discuss your requirements.",
+    ctaPrimary: "Book a Google Meet Call",
+    email: "muzammilmustafa2931@gmail.com"
   },
 
   footer: {
@@ -220,11 +220,7 @@ export const SITE_CONTENT = {
     socialLinks: [
       { label: "LinkedIn", href: "https://www.linkedin.com/in/muzammilmustafa25/" },
       { label: "GitHub", href: "https://github.com/muzammil-mustafa" },
-      { label: "Email", href: "mailto:muzammilmustafa231@gmail.com" }
-    ],
-    legalLinks: [
-      { label: "Privacy Policy", href: "#" },
-      { label: "Terms of Service", href: "#" }
+      { label: "Email", href: "mailto:muzammilmustafa2931@gmail.com" }
     ]
   }
 };

@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         
         {/* Top Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-16 border-b border-black/5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-16 border-b border-black/5">
           
           {/* Col 1 & 2: Brand & Contact Info */}
           <div className="lg:col-span-2 space-y-4">
@@ -78,25 +78,6 @@ export default function Footer() {
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm text-black/60 hover:text-black transition-colors"
-                  >
-                    {link.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Col 5: Legal */}
-          <div>
-            <h4 className="font-bold text-sm text-black uppercase tracking-wider mb-4">
-              Legal
-            </h4>
-            <ul className="space-y-2.5">
-              {footer.legalLinks.map((link) => (
-                <li key={link.label}>
-                  <a
-                    href={link.href}
                     className="text-sm text-black/60 hover:text-black transition-colors"
                   >
                     {link.label}
