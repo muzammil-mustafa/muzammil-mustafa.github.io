@@ -4,7 +4,7 @@ export const SITE_CONTENT = {
     logoIcon: "https://framerusercontent.com/images/um3bxT2WVFF4kr6enjXB8pntPlo.svg",
     copyrightYear: "2026",
     creator: "Muzammil Mustafa",
-    email: "muzammilmustafa231@gmail.com",
+    email: "muzamilmustafa231@gmail.com",
   },
 
   navLinks: [
@@ -21,7 +21,7 @@ export const SITE_CONTENT = {
     headlineIcon: "https://framerusercontent.com/images/um3bxT2WVFF4kr6enjXB8pntPlo.svg",
     intro: "Full Stack Developer & WordPress Developer with 1+ year of experience delivering 3+ complete websites and actively managing in-house company web development tasks and internal digital solutions. I combine clean code, responsive front-ends, and robust backend architectures to turn ideas into high-performance digital products.",
     ctaPrimary: "Book a Call",
-    ctaSecondary: "muzammilmustafa231@gmail.com",
+    ctaSecondary: "muzamilmustafa231@gmail.com",
     floatingBadges: [
       "1+ Year Experience",
       "3+ Delivered Websites",
@@ -207,7 +207,7 @@ export const SITE_CONTENT = {
     heading: "LET'S BUILD SOMETHING GREAT!",
     subheading: "Have a project in mind, need a full-stack web app, or looking for a custom WordPress expert? Let's schedule a Google Meet call to discuss your requirements.",
     ctaPrimary: "Book a Google Meet Call",
-    email: "muzammilmustafa2931@gmail.com"
+    email: "muzamilmustafa231@gmail.com"
   },
 
   footer: {
@@ -220,7 +220,7 @@ export const SITE_CONTENT = {
     socialLinks: [
       { label: "LinkedIn", href: "https://www.linkedin.com/in/muzammilmustafa25/" },
       { label: "GitHub", href: "https://github.com/muzammil-mustafa" },
-      { label: "Email", href: "mailto:muzammilmustafa2931@gmail.com" }
+      { label: "Email", href: "mailto:muzamilmustafa231@gmail.com" }
     ]
   }
 };
