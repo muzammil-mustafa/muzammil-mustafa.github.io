@@ -19,13 +19,13 @@ export const SITE_CONTENT = {
     subtitle: "Hi, I'm Muzammil!",
     headline: "MUZAMMIL MUSTAFA",
     headlineIcon: "https://framerusercontent.com/images/um3bxT2WVFF4kr6enjXB8pntPlo.svg",
-    intro: "Full Stack Developer & WordPress Developer with 1+ year of experience delivering 3+ complete websites and actively managing in-house company web development tasks and internal digital solutions. I combine clean code, responsive front-ends, and robust backend architectures to turn ideas into high-performance digital products.",
+    intro: "Full Stack Developer & WordPress Developer with 6 months of professional experience at Techifyy, delivering 3+ complete websites and actively engineering company web development tasks and internal digital solutions. I combine clean code, responsive front-ends, and robust backend architectures to turn ideas into high-performance digital products.",
     ctaPrimary: "Book a Call",
     ctaSecondary: "muzamilmustafa231@gmail.com",
     floatingBadges: [
-      "1+ Year Experience",
+      "6 Months at Techifyy",
       "3+ Delivered Websites",
-      "Company Web Solutions",
+      "Techifyy Web Solutions",
       "Full Stack Web Developer",
       "WordPress & WooCommerce",
       "React, Node.js & Express"
@@ -37,10 +37,10 @@ export const SITE_CONTENT = {
     heading: "Crafting robust full-stack web applications & modern WordPress solutions.",
     profilePic: "./profile.png",
     story1: "Greetings! I'm Muzammil Mustafa, a passionate Full Stack Developer and WordPress Developer. With an academic background in Telecommunication Engineering and practical experience building web solutions, I bridge the gap between creative visual interfaces and scalable backend engineering.",
-    story2: "Over the past year, I have successfully delivered 3+ live client websites while actively handling internal company web development tasks and custom in-house web solutions. My core stack includes React, Node.js, Express, WordPress (Elementor & ACF Pro), WooCommerce, Tailwind CSS, and RESTful APIs, with a strong focus on high PageSpeed performance, clean code architecture, and bulletproof security.",
+    story2: "With 6 months of professional experience at Techifyy, I have successfully delivered 3+ live client websites while actively handling internal company web development tasks and custom web solutions. My core stack includes React, Node.js, Express, WordPress (Elementor & ACF Pro), WooCommerce, Tailwind CSS, and RESTful APIs, with a strong focus on high PageSpeed performance, clean code architecture, and bulletproof security.",
     cvButton: "Read My CV",
     metrics: [
-      { label: "Years Experience", value: "1+" },
+      { label: "At Techifyy", value: "6 Months" },
       { label: "Websites Delivered", value: "3+" },
       { label: "Quality & Dedication", value: "100%" },
       { label: "Core Focus", value: "Full Stack & WP" }

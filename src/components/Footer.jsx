@@ -33,7 +33,7 @@ export default function Footer() {
             </a>
 
             <p className="text-sm text-black/60 max-w-sm leading-relaxed">
-              Full Stack Developer & WordPress Developer with 1+ year of experience delivering 3+ live websites and actively engineering internal company web solutions.
+              Full Stack Developer & WordPress Developer with 6 months of professional experience at Techifyy, delivering 3+ live websites and actively engineering company web solutions.
             </p>
 
             <div className="pt-2">

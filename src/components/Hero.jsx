@@ -27,8 +27,8 @@ export default function Hero() {
 07    constructor(developer = "Muzammil Mustafa") {
 08      this.developer = developer;
 09      this.stack = ["React.js", "Node.js", "Express", "WordPress", "WooCommerce", "TailwindCSS"];
-10      this.experience = "1+ Year";
-11      this.projectsDelivered = 10;
+10      this.experience = "6 Months";
+11      this.company = "Techifyy";
 12      this.status = "Available for High-Impact Projects";
 13    }
 14  
@@ -80,8 +80,8 @@ export default function Hero() {
             <p><span className="text-[#6670ff] font-bold">const</span> <span className="text-[#00cc99]">developer</span> = &#123;</p>
             <p className="pl-3"><span className="text-black/50">name:</span> <span className="text-[#e34f26]">"Muzammil"</span>,</p>
             <p className="pl-3"><span className="text-black/50">role:</span> <span className="text-[#e34f26]">"Full Stack & WP"</span>,</p>
-            <p className="pl-3"><span className="text-black/50">websites:</span> <span className="text-[#9333ea] font-bold">"3+"</span>,</p>
-            <p className="pl-3"><span className="text-black/50">currentWork:</span> <span className="text-[#00cc99]">"Company Tasks"</span></p>
+            <p className="pl-3"><span className="text-black/50">experience:</span> <span className="text-[#9333ea] font-bold">"6 Months"</span>,</p>
+            <p className="pl-3"><span className="text-black/50">company:</span> <span className="text-[#00cc99]">"Techifyy"</span></p>
             <p>&#125;;</p>
           </div>
         </motion.div>
